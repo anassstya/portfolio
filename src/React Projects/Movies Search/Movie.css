@@ -1,0 +1,119 @@
+.movieMainPage{
+    width: 100vw;
+    height: 100vh;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+    gap: 20px;
+
+    padding-top: 200px;
+    box-sizing: border-box;
+}
+.movieSearchContainer{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+}
+.movieSearch{
+    width: 60vw;
+    height: 40px;
+    font-size: 18px;
+    border-radius: 10px;
+    border: none;
+    padding: 0 10px ;
+}
+.movieSearchBtn{
+    width: 100px;
+    height: 40px;
+
+    background-color: #f9f9f9;
+    color: #646cff;
+    font-size: 18px;
+    font-weight: 700;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.movieError{
+    font-weight: 600;
+    font-size: 18px;
+}
+.moviesFound{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap:  20px;
+    padding-top: 50px;
+}
+.movie{
+    min-width: 250px;
+    max-width: 250px;
+    height: 550px;
+
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    flex-direction: column;
+
+    border: 3px solid #f9f9f9;
+    border-radius: 20px;
+    padding-bottom: 10px;
+
+    overflow: scroll;
+}
+.movie:hover{
+    border-color: #646cff;
+    box-shadow: 0 0 10px rgba(100, 108, 255, 0.5);
+    transition: all 0.3s ease-in-out;
+}
+.movieImg{
+    width: 100%;
+    height: 365px;
+    border-radius: 15px;
+}
+.movieTitle{
+    max-width: 90%;
+    text-align: center;
+    font-weight: 700;
+    font-size: 22px;
+
+    padding: 0;
+
+}
+.movieYear{
+    padding: 0;
+    margin: 0;
+
+    font-size: 20px;
+    font-weight: 500;
+    color: #646cff;
+}
+.movieDescr{
+    font-size: 14px;
+    font-style: italic;
+}
+
+@media (max-width: 956px) {
+    .movieMainPage{
+        margin: 0 10px;
+        padding: 50px 0;
+    }
+    .moviesFound{
+        gap: 15px;
+    }
+}
+@media (max-width: 535px) {
+    .movieImg{
+        max-width: 350px;
+        height: 600px;
+    }
+    .movie{
+        min-width: 350px;
+        height: 700px;
+    }
+}
