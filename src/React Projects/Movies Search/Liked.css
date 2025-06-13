@@ -1,0 +1,37 @@
+.likedMoviesContainer{
+    width: 100vw;
+    padding: 0 10vw;
+    box-sizing: border-box;
+}
+.likedMoviesList{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+    gap: 20px;
+    padding: 0 10vw;
+}
+.likedMovieCard, .likedMovieInfo{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.likedMovieCard{
+    width: 100%;
+    box-sizing: content-box;
+}
+.likedMovieInfo{
+    gap: 50px;
+}
+.likedMovieBtn{
+    justify-content: flex-end;
+    width: 266px;
+    font-size: 15px;
+}
+.movieImg{
+    width: 200px;
+    height: fit-content;
+}
+.movieTitle{
+    padding: 0 25px 0 0;
+}

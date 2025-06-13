@@ -1,0 +1,107 @@
+.movieDetailedContainer{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+
+    width: 50vw;
+
+    margin: 40px 0
+}
+.backBtn{
+    align-self: flex-start;
+    font-size: 30px;
+}
+.movieDetailed, .movieDetailedInfo{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    width: 100vw;
+}
+.movieDetails{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+    gap: 15px;
+    padding: 0;
+    margin: 0;
+
+    width: 50vw;
+}
+.movieOptions{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+    gap: 10px;
+}
+p {
+    padding: 0;
+    margin: 0;
+}
+.movieName{
+    font-size: 25px;
+    font-weight: 700;
+    align-self: center;
+    color: #646cff;
+}
+.movieOption{
+    font-size: 20px;
+}
+.movieOption span{
+    color: #747bff;
+    text-decoration: underline;
+}
+.movieLikedBtn{
+    align-self: flex-end;
+    font-size: 20px;
+    margin: 0 100px 50px;
+
+    box-sizing: content-box;
+    padding: 10px;
+    border-radius: 10px;
+    background-color: #f9f9f9;
+}
+.movieLikedBtn:hover{
+    background-color: #747bff;
+    border: 1px solid #f9f9f9;
+    color: #1a1a1a;
+    font-size: 21px;
+}
+
+@media (max-width: 956px) {
+   .movieDetails{
+       width: 80vw;
+   }
+    .movieDetailedContainer{
+        width: 90vw;
+        margin: 50px 10px
+    }
+    .movieLikedBtn{
+        align-self: flex-end;
+        font-size: 20px;
+        margin: 0 60px 30px;
+    }
+}
+@media (max-width: 535px) {
+    .movieDetailed{
+        margin: 20px 10px;
+    }
+    .movieDetailedContainer{
+        width: 100vw;
+    }
+    .movieOptions{
+        font-size: 18px;
+    }
+    .movieLikedBtn{
+        align-self: flex-end;
+        font-size: 16px;
+        margin: 0 8px 10px;
+    }
+    .movieLikedBtn:hover{
+        font-size: 17px;
+    }
+}

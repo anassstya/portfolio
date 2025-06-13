@@ -1,6 +1,7 @@
 import React, {useRef, useState} from "react";
 import MovieData from "./MovieData.jsx";
 import './Movie.css';
+import {Link} from "react-router-dom";
 export default function MovieMainPage() {
     const [input, setInput] = useState();
     const inputRef = useRef();
@@ -12,6 +13,7 @@ export default function MovieMainPage() {
 
     return(
         <div className="movieMainPage">
+            <Link to={'/movies/liked'} className={'movieLikedBtn'}>Favourites</Link>
             <div className="movieSearchContainer">
                 <input
                     type="text"
