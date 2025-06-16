@@ -1,9 +1,8 @@
-## Проекты на React:
-### 1. Поиск фильмов (movie search):
+### Поиск фильмов (movie search):
 
 Приложение на React, позволяющее искать фильмы по названию,
-просматривать подробную информацию о каждом фильме и добавлять 
-понравившиеся в список избранного. Используется Redux Toolkit 
+просматривать подробную информацию о каждом фильме и добавлять
+понравившиеся в список избранного. Используется Redux Toolkit
 для глобального состояния и OMDb API для получения данных о фильмах.
 
 #### <strong>Функциональность: </strong> <br>
@@ -19,12 +18,12 @@
 - React Router
 - OmDb API <br>
 
-Фото главной страницы:
-![main page](./public/ImagesForReadMe/mainPage.png)
+Главная страница:
+![main page](./images/mainPage.png)
 
-Фото карточки фильма:
-![movie cars](./public/ImagesForReadMe/movieCard.png)
+Карточка фильма:
+![movie cars](./images/movieCard.png)
 
-Фото избранного:
-![movie cars](./public/ImagesForReadMe/favourites.png)
+Избранное:
+![movie cars](./images/favourites.png)
 

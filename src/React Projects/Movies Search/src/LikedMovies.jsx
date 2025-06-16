@@ -2,7 +2,7 @@ import React from "react";
 import { Link } from "react-router-dom";
 import {useDispatch, useSelector} from "react-redux";
 import "./Liked.css";
-import {DeleteLikedMovie} from "./store/MovieSlice.js";
+import {DeleteLikedMovie} from "../store/MovieSlice.js";
 
 export default function LikedMovies() {
     const likedMovies = useSelector(state => state.movies.likedMovies);

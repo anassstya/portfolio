@@ -1,7 +1,7 @@
 import React, { useEffect, useState } from "react";
 import { useDispatch, useSelector } from "react-redux";
 import {Link, useParams} from "react-router-dom";
-import {DeleteLikedMovie, setChosenMovieDetails, setLikedMovie} from "./store/MovieSlice.js";
+import {DeleteLikedMovie, setChosenMovieDetails, setLikedMovie} from "../store/MovieSlice.js";
 import './MovieDetailed.css';
 
 export const DETAILED_MOVIE_URL = import.meta.env.VITE_DETAILED_MOVIE_DATA_URL;

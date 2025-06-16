@@ -1,6 +1,6 @@
 import React, {useEffect, useState} from "react";
 import {useDispatch, useSelector} from "react-redux";
-import {setMovies, setChosenMovie} from "./store/MovieSlice.js";
+import {setMovies, setChosenMovie} from "../store/MovieSlice.js";
 import './Movie.css';
 import MovieDetailed from "./MovieDateiled.jsx";
 import {Link} from "react-router-dom";

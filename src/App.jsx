@@ -1,8 +1,8 @@
 import React from "react";
 import { Routes, Route } from "react-router-dom";
-import MovieMainPage from "./React Projects/Movies Search/MovieMainPage.jsx";
-import MovieDetailed from "./React Projects/Movies Search/MovieDateiled.jsx";
-import LikedMovies from "./React Projects/Movies Search/LikedMovies.jsx";
+import MovieMainPage from "./React Projects/Movies Search/src/MovieMainPage.jsx";
+import MovieDetailed from "./React Projects/Movies Search/src/MovieDateiled.jsx";
+import LikedMovies from "./React Projects/Movies Search/src/LikedMovies.jsx";
 
 
 export default function App() {
