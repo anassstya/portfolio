@@ -12,7 +12,7 @@ export default function LikedMovies() {
     }
     return (
         <div className="likedMoviesContainer">
-            <Link to={'/'} className={'backBtn'}>⇦</Link>
+            <Link to={'/movies'} className={'backBtn'}>⇦</Link>
             {likedMovies.length > 0 ? (
                 <div className="likedMoviesList">
                     {likedMovies.map(movie => (

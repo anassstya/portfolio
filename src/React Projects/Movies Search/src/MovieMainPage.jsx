@@ -13,7 +13,10 @@ export default function MovieMainPage() {
 
     return(
         <div className="movieMainPage">
-            <Link to={'/movies/liked'} className={'movieLikedBtn'}>Favourites</Link>
+            <div className={'mainPageTopLinks'}>
+                <Link to={'/'} className={'mainBtn'}>⇦</Link>
+                <Link to={'/movies/liked'} className={'movieLikedBtn'}>Favourites</Link>
+            </div>
             <div className="movieSearchContainer">
                 <input
                     type="text"

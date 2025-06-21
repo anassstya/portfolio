@@ -1,9 +1,8 @@
 import { createRoot } from 'react-dom/client'
 import './index.css'
 import React from "react";
-import MovieMainPage from "./React Projects/Movies Search/src/MovieMainPage.jsx";
 import {Provider} from "react-redux";
-import store from "./React Projects/Movies Search/store/store.js";
+import store from "./store.js";
 import { BrowserRouter } from "react-router-dom";
 import App from "./App.jsx";
 

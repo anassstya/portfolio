@@ -55,22 +55,6 @@ p {
     color: #747bff;
     text-decoration: underline;
 }
-.movieLikedBtn{
-    align-self: flex-end;
-    font-size: 20px;
-    margin: 0 100px 50px;
-
-    box-sizing: content-box;
-    padding: 10px;
-    border-radius: 10px;
-    background-color: #f9f9f9;
-}
-.movieLikedBtn:hover{
-    background-color: #747bff;
-    border: 1px solid #f9f9f9;
-    color: #1a1a1a;
-    font-size: 21px;
-}
 
 @media (max-width: 956px) {
    .movieDetails{
@@ -79,11 +63,6 @@ p {
     .movieDetailedContainer{
         width: 90vw;
         margin: 50px 10px
-    }
-    .movieLikedBtn{
-        align-self: flex-end;
-        font-size: 20px;
-        margin: 0 60px 30px;
     }
 }
 @media (max-width: 535px) {
@@ -96,12 +75,5 @@ p {
     .movieOptions{
         font-size: 18px;
     }
-    .movieLikedBtn{
-        align-self: flex-end;
-        font-size: 16px;
-        margin: 0 8px 10px;
-    }
-    .movieLikedBtn:hover{
-        font-size: 17px;
-    }
+
 }
